@@ -11,6 +11,9 @@
     "recursive",
     "listener"
   ],
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha"
+	},
   "devDependencies": {
     "mocha": "^2.3.4"
   }
