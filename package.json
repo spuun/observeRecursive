@@ -1,0 +1,17 @@
+{
+  "name": "observeRecursive",
+  "description": "Object.observe() doesn't observe deep in objects. This module adds Objective.observeRecursive().",
+  "version": "0.0.1",
+  "homepage": "https://github.com/spuun/observeRecursive",
+  "author": "Jon Börjesson <jon@spuun.se>",
+  "main": "index.js",
+  "keywords": [
+    "observe",
+    "deep",
+    "recursive",
+    "listener"
+  ],
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
