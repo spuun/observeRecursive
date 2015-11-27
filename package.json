@@ -5,6 +5,7 @@
   "homepage": "https://github.com/spuun/observeRecursive",
   "author": "Jon Börjesson <jon@spuun.se>",
   "main": "index.js",
+	"license": "MIT",
   "keywords": [
     "observe",
     "deep",
