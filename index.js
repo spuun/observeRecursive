@@ -69,34 +69,4 @@
 		observe(obj, []);
 	};
 })();
-/*
-var obja = {};
-var objb = {};
-var objc = {};
-Object.observe(objb, changes =>	console.log(this, 'objb', changes));
-Object.observe(objc, changes => console.log('objc', changes));
-var objAObserver = changes => console.log(changes);
-Object.observeRecursive(obja, objAObserver);
-obja.b = 1;
-obja.c = 2;
-obja.sub = objb;
-delete obja.b;
-var acts = [
-	() => { objb.suba = 'aaaa'; },
-	() => { obja.sub = objc; },
-	() => { objc.csub = 'scscscs'; },
-	() => { objb.test = 'hej'; },
-	() => { objc.addedsub = { subsub:{}}; },
-	() => { objc.addedsub.subsub.subsubsub = 'hej subba'; },
-	() => { delete obja.sub.addedsub.subsub; },
-	() => { Object.unobserveRecursive(obja, objAObserver); },
-	() => { obja.b = 100; },
-	() => { obja.sub.addafterunobserver = 'ok'; },
 
-	() => { console.log(obja, objb, objc) } 
-];
-
-for (let i=0;i<acts.length;++i) {
-	 setTimeout(() => {acts[i]();}, 10+i*10);
-}
-*/
