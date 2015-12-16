@@ -1,5 +1,5 @@
 {
-  "name": "observeRecursive",
+  "name": "observe-recursive",
   "description": "Object.observe() doesn't observe deep in objects. This module adds Object.observeRecursive().",
   "version": "0.1.0",
   "homepage": "https://github.com/spuun/observeRecursive",
