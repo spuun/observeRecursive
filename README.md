@@ -1,5 +1,6 @@
 # Example
-```
+
+```javascript
 require('objectRecursive');
 var myObj = {
 	prop: {
